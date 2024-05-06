@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FF238B</color>
+    <color name="string">#FFCFE2</color>
+    <color name="digits">#FF238B</color>
+    <color name="equals">#FCD48C</color>
+    <color name="operators_f">#FF238B</color>
+    <color name="operators_b">#FFCFE2</color>
+
+    <color name="delete_f">#FFCFE2</color>
+    <color name="delete_b">#FFCFE2</color>
+    <color name="functions_f">#FFCFE2</color>
+    <color name="functions_b">#FFCFE2</color>
+    <color name="digits_bg">#FFCFE2</color>
+    <color name="equals_bg">#FF238B</color>
+    <color name="operators_bg">#FCD48C</color>
+    <color name="delete_bg">#FF0000</color>
+    <color name="functions_bg">#E082FF</color>
+
+    <color name="thumb">#E082FF</color>
+    <color name="track">#FFFFFF</color>
+    <color name="toolbar_bg">#FFCFE2</color>
+    <color name="toolbar_boarder">#FFCFE2</color>
+</resources>

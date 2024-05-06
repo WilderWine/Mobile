@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttonNumber">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/button_border_number</item>
+        <item name="android:textColor">@color/digits</item>
+    </style>
+
+    <style name="buttonOperator">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/button_border</item>
+        <item name="android:textColor">@color/operators_f</item>
+    </style>
+
+    <style name="buttonEqual">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/button_border_equals</item>
+        <item name="android:textColor">@color/operators_bg</item>
+    </style>
+
+    <style name="buttonClear">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/button_border_deletes</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/delete_f</item>
+    </style>
+
+    <style name="buttonFunction">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/button_border_functions</item>
+        <item name="android:textColor">@color/functions_f</item>
+    </style>
+
+    <style name="switchStyle">
+        <item name="android:thumbTint">@color/thumb</item>
+        <item name="android:trackTint">@color/track</item>
+    </style>
+
+</resources>

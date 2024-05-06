@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#000000</color>
+    <color name="string">#FFFFFF</color>
+    <color name="digits">#FFFFFF</color>
+    <color name="equals">#000000</color>
+    <color name="operators_f">#FFFFFF</color>
+    <color name="operators_b">#FFAC00</color>
+
+    <color name="delete_f">#FFFFFF</color>
+    <color name="delete_b">#FF0000</color>
+    <color name="functions_f">#FFFFFF</color>
+    <color name="functions_b">#ACFEFF</color>
+    <color name="digits_bg">#000000</color>
+    <color name="equals_bg">#FFAC00</color>
+    <color name="operators_bg">#000000</color>
+    <color name="delete_bg">#000000</color>
+    <color name="functions_bg">#000000</color>
+
+    <color name="thumb">#ACFEFF</color>
+    <color name="track">#FFFFFF</color>
+    <color name="toolbar_bg">#000000</color>
+    <color name="toolbar_boarder">#ACFEFF</color>
+
+</resources>
