@@ -13,20 +13,32 @@
         android:layout_height="wrap_content"
         android:background="@drawable/toolbar_border"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHeight_percent="0.1">
+        app:layout_constraintHeight_percent="0.1"
+        >
 
         <Switch
             android:id="@+id/toggleButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingRight="50dp"
             style="@style/switchStyle"
             />
 
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/switchStyle"
+            android:minWidth="160dp"
+            />
 
     </androidx.appcompat.widget.Toolbar>
 
 
+
+
     <HorizontalScrollView
+        android:id="@+id/horSView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
@@ -46,7 +58,8 @@
             android:textAlignment="textEnd"
             android:textColor="@color/string"
             android:textSize="20sp"
-            android:gravity="end" />
+            android:gravity="end"
+            android:ellipsize="end" />
 
     </HorizontalScrollView>
 
@@ -77,12 +90,12 @@
                 android:layout_height="wrap_content"
                 android:text=")" />
 
-            <android.widget.Button
+            <!--<android.widget.Button
                 android:id="@+id/percent_f"
                 style="@style/buttonFunction"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="%" />
+                android:text="%" />-->
 
             <android.widget.Button
                 android:id="@+id/factorial_f"
